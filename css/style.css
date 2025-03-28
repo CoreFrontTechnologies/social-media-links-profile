@@ -77,13 +77,37 @@ body {
 .media-containers div p{
     text-align: center;
 }
-/* 
-@media (min-width:375px) {
+
+@media (max-width:375px) {
     
     .container {
+        width: 80%;
+        height: 50%;
+    }
+    .con-container img{
+        width: 60px;
+        height: 60px;
+    }
+    .con-container h3{
+        font-size: 10px;
+    }
+    .con-container h5{
+        font-size: 8px;
+    }
+    .con-container p{
+        font-size: 8px;
+    }
+    .media-containers div{
         width: 200px;
-        height: 310px;
+        height: 30px;
+    }
+
+    .media-containers div p {
+        font-size: 12px;
+        /* background-color: blue; */
+        align-self: center;
+        margin-top: 10px;
     }
 
 
-} */
+}
